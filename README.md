@@ -3,12 +3,5 @@ Collection of tools that are useful to have for troubleshooting when working on 
 
 * To run *
 ```
-docker run \
-    --name sys-tools \
-    rucknar/sys-tools \
-```
-
-* Shell into the container *
-```
-docker exec -it sys-tools bash
+docker run -it --rm rucknar/sys-tools
 ```
